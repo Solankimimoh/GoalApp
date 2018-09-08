@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1032447242832",
+    "firebase_url": "https://goalapp-ebaa0.firebaseio.com",
+    "project_id": "goalapp-ebaa0",
+    "storage_bucket": "goalapp-ebaa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032447242832:android:476e0e17d8c9794c",
+        "android_client_info": {
+          "package_name": "sukem.com.goalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032447242832-u22thflpfhe7b4lsu90b0automqicla7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sukem.com.goalapp",
+            "certificate_hash": "374ff08072d54c0385c669b288ca41b450db1b57"
+          }
+        },
+        {
+          "client_id": "1032447242832-gtt91rh1g6l8qs95jjvs09ou0den83s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwBfBjsEKRWuKgUx-bH2TC_UfDm7qQV90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032447242832-gtt91rh1g6l8qs95jjvs09ou0den83s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

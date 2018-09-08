@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GoalApp</string>
+    <string name="login_email">Email ID</string>
+    <string name="login_pwd">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_forgot_pwd">Forgot Password?</string>
+    <string name="login_new_user_tv">New User?</string>
+    <string name="forgot_pwd_btn">Send Mail</string>
+</resources>
