@@ -6,4 +6,9 @@
     <string name="login_forgot_pwd">Forgot Password?</string>
     <string name="login_new_user_tv">New User?</string>
     <string name="forgot_pwd_btn">Send Mail</string>
+    <string name="signup_firstname">First Name</string>
+    <string name="signup_lastname">Last Name</string>
+    <string name="signup_mobile">Mobile</string>
+    <string name="login_activity">Login</string>
+    <string name="signup_activity">Sign Up</string>
 </resources>
