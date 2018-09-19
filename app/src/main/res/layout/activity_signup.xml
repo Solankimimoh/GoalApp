@@ -23,35 +23,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/signup_firstname" />
+            android:hint="@string/signup_firstname"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/activity_signup_lastname_ed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/signup_lastname" />
+            android:hint="@string/signup_lastname"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/activity_signup_email_ed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/login_email" />
+            android:hint="@string/login_email"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/activity_signup_password_ed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/login_pwd" />
+            android:hint="@string/login_pwd"
+            android:inputType="numberPassword" />
 
         <EditText
             android:id="@+id/activity_signup_mobile_ed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@string/signup_mobile" />
+            android:hint="@string/signup_mobile"
+            android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/activity_singup_login_btn"
