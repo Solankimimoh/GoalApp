@@ -96,9 +96,7 @@ public class HomeActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        if (id == R.id.nav_goal) {
-
-        } else if (id == R.id.nav_logout) {
+      if (id == R.id.nav_logout) {
             mAuth.signOut();
             final Intent gotoLoginActivity = new Intent(HomeActivity.this, LoginActivity.class);
             startActivity(gotoLoginActivity);

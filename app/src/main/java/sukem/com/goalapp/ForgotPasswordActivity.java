@@ -49,9 +49,9 @@ public class ForgotPasswordActivity extends AppCompatActivity implements View.On
 
     private void resetPassword() {
         final String email = forgotEmailEd.getText().toString().trim();
-
+        Toast.makeText(this, "HE", Toast.LENGTH_SHORT).show();
         if (!email.isEmpty()) {
-            FirebaseAuth.getInstance().sendPasswordResetEmail("user@example.com")
+            FirebaseAuth.getInstance().sendPasswordResetEmail(email)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
@@ -59,6 +59,11 @@ public class ForgotPasswordActivity extends AppCompatActivity implements View.On
                                 Log.e(TAG, "Email sent.");
                                 Toast.makeText(ForgotPasswordActivity.this, "Email Sent", Toast.LENGTH_SHORT).show();
                                 progressDialog.dismiss();
+                                finish();
+                            }
+                            else
+                            {
+                                Toast.makeText(ForgotPasswordActivity.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

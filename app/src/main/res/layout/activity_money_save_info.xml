@@ -29,7 +29,6 @@
             android:inputType="numberDecimal" />
 
 
-
         <EditText
             android:id="@+id/activity_money_save_info_target_ed"
             android:layout_width="match_parent"
@@ -38,13 +37,6 @@
             android:hint="@string/target_weight"
             android:inputType="numberDecimal" />
 
-        <EditText
-            android:id="@+id/activity_money_save_info_target_week_ed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="@string/duration_week"
-            android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/activity_money_save_info_start_tv"
@@ -55,8 +47,18 @@
             android:gravity="center_vertical"
             android:text="@string/exercise_start_date"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
-            android:textColor="@android:color/darker_gray"  />
+            android:textColor="@android:color/darker_gray" />
 
+
+        <TextView
+            android:id="@+id/activity_money_save_info_target_week_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:hint="@string/duration_week"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@android:color/darker_gray" />
 
         <TextView
             android:id="@+id/activity_money_save_info_time_tv"

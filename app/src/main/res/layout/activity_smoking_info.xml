@@ -37,14 +37,6 @@
             android:hint="@string/duration_smoke"
             android:inputType="numberDecimal" />
 
-        <EditText
-            android:id="@+id/activity_smoking_info_target_week_ed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="@string/duration_week"
-            android:inputType="numberDecimal" />
-
         <TextView
             android:id="@+id/activity_smoking_info_start_tv"
             android:layout_width="match_parent"
@@ -52,7 +44,18 @@
             android:layout_margin="10dp"
             android:background="?attr/editTextBackground"
             android:gravity="center_vertical"
-            android:text="@string/exercise_start_date"
+            android:hint="@string/exercise_start_date"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="?attr/editTextColor" />
+
+
+        <TextView
+            android:id="@+id/activity_smoking_info_target_week_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:hint="@string/duration_week"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
             android:textColor="?attr/editTextColor" />
 

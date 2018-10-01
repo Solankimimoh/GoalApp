@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,13 +45,6 @@
             android:hint="@string/target_weight"
             android:inputType="numberDecimal" />
 
-        <EditText
-            android:id="@+id/activity_lose_weight_info_target_week_ed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="@string/duration_week"
-            android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/activity_lose_weight_info_start_tv"
@@ -62,6 +54,16 @@
             android:background="?attr/editTextBackground"
             android:gravity="center_vertical"
             android:text="@string/exercise_start_date"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/activity_lose_weight_info_target_week_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:hint="@string/duration_week"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
             android:textColor="@android:color/darker_gray" />
 
