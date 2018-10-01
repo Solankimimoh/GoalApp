@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ExerciseInfoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/exercise_info"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/activity_exercise_dayofweek_sp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:entries="@array/dayOfWeek" />-->
+
+    <EditText
+        android:id="@+id/activity_exercise_info_week_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/duration_week"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/activity_exercise_info_start_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="?attr/editTextBackground"
+        android:gravity="center_vertical"
+        android:text="@string/exercise_start_date"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/activity_exercise_info_time_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="?attr/editTextBackground"
+        android:gravity="center_vertical"
+        android:text="@string/exercise_start_time"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/activity_exercise_setgoal_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/set_goal"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

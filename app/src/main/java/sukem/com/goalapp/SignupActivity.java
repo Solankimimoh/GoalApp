@@ -112,8 +112,8 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
                                                         } else {
                                                             Toast.makeText(SignupActivity.this, "Success ! Account Created ", Toast.LENGTH_SHORT).show();
                                                             progressDialog.hide();
-                                                            final Intent gotoSelectGoalActivity = new Intent(SignupActivity.this, SelectGoalActivity.class);
-                                                            startActivity(gotoSelectGoalActivity);
+                                                            final Intent gotoHomeActivity = new Intent(SignupActivity.this, HomeActivity.class);
+                                                            startActivity(gotoHomeActivity);
                                                             finish();
 
                                                         }

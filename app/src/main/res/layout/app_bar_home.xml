@@ -22,5 +22,12 @@
 
     <include layout="@layout/content_home" />
 
+    <android.support.design.widget.FloatingActionButton
+      android:id="@+id/floating_btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="15dp"
+        android:src="@drawable/icon_add" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -22,4 +22,29 @@
     <string name="goal_loseweight">Lose Weight</string>
     <string name="goal_exercise">Exercise</string>
     <string name="goal_moneysave">Money Save</string>
+    <string name="exercise_info">I commit to Exercise Regularly</string>
+    <string name="duration_week">Weeks</string>
+    <string name="exercise_start_date">Start</string>
+    <string name="set_goal">Set Goal </string>
+    <string name="loseweight">I commit to Lose Weight</string>
+    <string name="current_weight">Current Weight in KG</string>
+    <string name="current_height">Currrent Height in CM</string>
+    <string name="target_weight">Target Weight</string>
+    <string name="quitsmoking">I commit to Quit Smoking</string>
+    <string name="intake_smoke">Intake of Smokes</string>
+    <string name="duration_smoke">Duration of smoke</string>
+    <string name="moneysave">I commit to Save Money</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="exercise_start_time">Time</string>
+
+
+    <string-array name="dayOfWeek">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
 </resources>

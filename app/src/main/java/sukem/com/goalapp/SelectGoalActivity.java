@@ -1,5 +1,6 @@
 package sukem.com.goalapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,18 +51,23 @@ public class SelectGoalActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void moneySaveGoal() {
-
+        final Intent gotoMoneySaveInfoActivity = new Intent(SelectGoalActivity.this, MoneySaveInfoActivity.class);
+        startActivity(gotoMoneySaveInfoActivity);
     }
 
     private void exerciseGoal() {
-
+        final Intent gotoExerciseInfoActivity = new Intent(SelectGoalActivity.this, ExerciseInfoActivity.class);
+        startActivity(gotoExerciseInfoActivity);
     }
 
     private void loseWeightGoal() {
+        final Intent gotoLoseWeightInfoActivity = new Intent(SelectGoalActivity.this, LoseWeightInfoActivity.class);
+        startActivity(gotoLoseWeightInfoActivity);
 
     }
 
     private void smokingGoal() {
-
+        final Intent gotoSmokingInfoActivity = new Intent(SelectGoalActivity.this, SmokingInfoActivity.class);
+        startActivity(gotoSmokingInfoActivity);
     }
 }

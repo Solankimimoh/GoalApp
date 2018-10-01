@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity
 
     private FirebaseAuth mAuth;
     private TextView userNameTv;
+    private FloatingActionButton createGoalFloatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,15 @@ public class HomeActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         mAuth = FirebaseAuth.getInstance();
 
+        createGoalFloatingActionButton = findViewById(R.id.floating_btn_add);
+
+        createGoalFloatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Intent gotoSelectGoalActivity = new Intent(HomeActivity.this, SelectGoalActivity.class);
+                startActivity(gotoSelectGoalActivity);
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
