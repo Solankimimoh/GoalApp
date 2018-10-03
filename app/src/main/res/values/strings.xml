@@ -36,6 +36,9 @@
     <string name="moneysave">I commit to Save Money</string>
     <string name="current_balance">Current Balance</string>
     <string name="exercise_start_time">Time</string>
+    <string name="customegoal" >I commit to</string>
+    <string name="custom_goal_title">Title of Custom Goal</string>
+    <string name="customegoal_btn">Custome Goal</string>
 
 
     <string-array name="dayOfWeek">

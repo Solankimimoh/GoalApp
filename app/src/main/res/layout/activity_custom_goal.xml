@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".ExerciseInfoActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/customegoal"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/activity_custom_goal_title_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/custom_goal_title"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/activity_custom_goal_description_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/current_height"
+            android:inputType="numberDecimal" />
+
+
+
+        <TextView
+            android:id="@+id/activity_custom_goal_start_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:gravity="center_vertical"
+            android:text="@string/exercise_start_date"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/activity_custom_goal_end_week_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:hint="@string/duration_week"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/activity_custom_goal_time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/editTextBackground"
+            android:gravity="center_vertical"
+            android:text="@string/exercise_start_time"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/activity_custom_goal_setgoal_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:text="@string/set_goal"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</ScrollView>

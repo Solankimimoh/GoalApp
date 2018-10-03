@@ -12,6 +12,8 @@ public class SelectGoalActivity extends AppCompatActivity implements View.OnClic
     private Button goalLoseWeightBtn;
     private Button goalExerciseBtn;
     private Button goalMoneySaveBtn;
+    private Button customGoalBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +27,13 @@ public class SelectGoalActivity extends AppCompatActivity implements View.OnClic
         goalLoseWeightBtn = findViewById(R.id.activity_select_goal_loseweight_btn);
         goalExerciseBtn = findViewById(R.id.activity_select_goal_exercise_btn);
         goalMoneySaveBtn = findViewById(R.id.activity_select_goal_moneysave_btn);
+        customGoalBtn = findViewById(R.id.activity_select_goal_custome_btn);
 
         goalSmokingBtn.setOnClickListener(this);
         goalLoseWeightBtn.setOnClickListener(this);
         goalExerciseBtn.setOnClickListener(this);
         goalMoneySaveBtn.setOnClickListener(this);
+        customGoalBtn.setOnClickListener(this);
     }
 
     @Override
@@ -47,7 +51,15 @@ public class SelectGoalActivity extends AppCompatActivity implements View.OnClic
             case R.id.activity_select_goal_moneysave_btn:
                 moneySaveGoal();
                 break;
+            case R.id.activity_select_goal_custome_btn:
+                customGoal();
+                break;
         }
+    }
+
+    private void customGoal() {
+        final Intent gotoCustomeGoalActivity = new Intent(SelectGoalActivity.this, CustomGoalActivity.class);
+        startActivity(gotoCustomeGoalActivity);
     }
 
     private void moneySaveGoal() {

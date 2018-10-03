@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -38,11 +39,14 @@
         <activity android:name=".ExerciseInfoActivity" />
         <activity android:name=".LoseWeightInfoActivity" />
         <activity android:name=".SmokingInfoActivity" />
-        <activity android:name=".MoneySaveInfoActivity"></activity>
-    <receiver android:name=".NotificationReceiver"/>
-    <receiver android:name=".LoseWeigthReceiver"/>
-    <receiver android:name=".MoneySaveReceiver"/>
-    <receiver android:name=".SmokingReceiver"/>
+        <activity android:name=".MoneySaveInfoActivity" />
+
+        <receiver android:name=".NotificationReceiver" />
+        <receiver android:name=".LoseWeigthReceiver" />
+        <receiver android:name=".MoneySaveReceiver" />
+        <receiver android:name=".SmokingReceiver" />
+
+        <activity android:name=".CustomGoalActivity"></activity>
     </application>
 
 </manifest>
