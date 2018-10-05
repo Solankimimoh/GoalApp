@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoalApp</string>
+    <string name="app_name">Goal  Achiever</string>
     <string name="login_email">Email ID</string>
     <string name="login_pwd">Password</string>
     <string name="login_btn">Login</string>
